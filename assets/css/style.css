@@ -1,0 +1,88 @@
+/* Import Font Modern */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* --- Efek Card Mewah --- */
+.card-modern {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-radius: 20px !important;
+    border: none;
+}
+
+.card-modern:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+/* --- Dekorasi Banner Dashboard --- */
+.card-modern.text-white {
+    z-index: 1;
+}
+
+/* --- Badge Custom --- */
+.bg-soft-primary {
+    background-color: rgba(102, 126, 234, 0.1) !important;
+    color: #667eea !important;
+}
+
+.bg-soft-success {
+    background-color: rgba(72, 187, 120, 0.1) !important;
+    color: #38a169 !important;
+}
+
+.bg-soft-warning {
+    background-color: rgba(237, 137, 54, 0.1) !important;
+    color: #dd6b20 !important;
+}
+
+/* --- Icon Shape di Dashboard --- */
+.icon-shape {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* --- Animasi Gambar Katalog --- */
+.card-img-top {
+    transition: transform 0.6s ease;
+}
+
+.card-modern:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+/* --- Custom Scrollbar --- */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #764ba2;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #667eea;
+}
+
+/* --- Responsive Helpers --- */
+@media (max-width: 768px) {
+    .p-5 {
+        padding: 2rem !important;
+    }
+    .display-5 {
+        font-size: 2rem;
+    }
+}
