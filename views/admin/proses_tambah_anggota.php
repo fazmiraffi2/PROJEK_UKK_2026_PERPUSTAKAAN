@@ -21,7 +21,7 @@ if (isset($_POST['username'])) {
               </script>";
     } else {
         echo "<script>
-                alert('Gagal menambahkan anggota! Periksa apakah username sudah terdaftar.'); 
+                alert('Gagal menambahkan anggota! Periksa apakah Username atau Nama Lengkap sudah terdaftar.'); 
                 window.history.back();
               </script>";
     }

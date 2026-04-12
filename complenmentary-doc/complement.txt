@@ -1,0 +1,16 @@
+LINK GITHUB:
+https://github.com/fazmiraffi2/PROJEK_UKK_2026_PERPUSTAKAAN
+
+LINK HOSTING:
+https://raffi-fazmip4.wuaze.com/
+
+AKUN WEBSITE:
+1.ADMIN
+  username: admin1
+  password: admin123
+
+2.USER
+  username: Piww
+  password: 123
+
+*register akun menggunakan nama lengkap, dan password menggunakan NISN/NIS*
